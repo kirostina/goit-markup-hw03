@@ -1,4 +1,4 @@
-@import 'node_modules/modern-normalize/modern-normalize.min.css';
+@import "node_modules/modern-normalize/modern-normalize.min.css";
 :root {
   --color-iris: #4d5ae5;
   --color-ocean: #404bbf;
@@ -57,7 +57,7 @@ li {
   padding: 188px 0;
 }
 .hidden {
-    line-height: 1.2;
+  line-height: 1.2;
 }
 .hero-sol {
   font-family: "Roboto";
@@ -121,15 +121,21 @@ li {
   list-style: none;
   text-decoration: none;
   color: var(--color-navy-blue);
+  display: flex;
+  gap: 40px;
 }
 .top-menu:hover {
   color: #404bbf;
 }
 .top-menu:focus {
-    color: #404bbf;
+  color: #404bbf;
 }
 .address {
   font-style: normal;
+  display: flex;
+  gap: 40px;
+}
+.address-list {
   display: flex;
   gap: 40px;
 }
@@ -145,7 +151,7 @@ li {
   color: #404bbf;
 }
 .contacts:focus {
-    color: #404bbf;
+  color: #404bbf;
 }
 /* -----hero image------ */
 .hero {
@@ -160,7 +166,7 @@ li {
   color: var(--color-white);
 }
 .hero-sol {
-    line-height: 1.07;
+  line-height: 1.07;
 }
 .hero-btn {
   font-family: "Roboto", sans-serif;
@@ -183,7 +189,7 @@ li {
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 /* Section1 */
 .about {
@@ -217,8 +223,8 @@ li {
 }
 /* Section2 */
 .whatwad {
-    background-color: #F4F4FD;
-    padding-bottom: 120px;
+  background-color: #f4f4fd;
+  padding-bottom: 120px;
 }
 .whatwad-list {
   font-family: "Roboto";
@@ -355,12 +361,12 @@ li {
   cursor: pointer;
 }
 .all:hover {
-    color: #FFFFFF;
-    background-color: #404BBF;
+  color: #ffffff;
+  background-color: #404bbf;
 }
 .all:focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
+  color: #ffffff;
+  background-color: #404bbf;
 }
 .img_first {
   letter-spacing: 0.02em;
@@ -371,10 +377,10 @@ li {
   color: var(--color-grey);
 }
 .app {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--color-slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
 }
 
 .row {
