@@ -206,6 +206,7 @@ li {
 }
 .about-li {
   width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 .about-list {
   font-family: "Roboto";
@@ -217,6 +218,7 @@ li {
   color: var(--color-navy-blue);
   margin-bottom: 8px;
   width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 .about p {
   font-family: "Roboto";
