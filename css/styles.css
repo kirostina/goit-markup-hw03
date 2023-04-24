@@ -18,6 +18,11 @@ body {
   background-color: var(--color-white);
   letter-spacing: 0.02em;
   color: #434455;
+  margin: 0 auto;
+  padding: 0;
+}
+img {
+  display: block;
 }
 li {
   list-style: none;
@@ -50,6 +55,10 @@ li {
 
 .logo {
   font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
 }
 .logoto {
   font-family: "Raleway", sans-serif;
