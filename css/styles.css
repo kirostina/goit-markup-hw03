@@ -348,6 +348,7 @@ li {
 /* Portfolio - buttons */
 .porfolio-section {
   background-color: var(--color-cloud);
+  padding: 96px 0 120px;
 }
 .porfolio-section h1 {
   line-height: 1.07;
@@ -389,6 +390,7 @@ li {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  width: calc((100% - 48px) / 3);
 }
 .img_first {
   letter-spacing: 0.02em;
@@ -397,6 +399,7 @@ li {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-grey);
+  margin-bottom: 8px;
 }
 .img_list {
   width: calc((100% - 48px) / 3);
