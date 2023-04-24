@@ -78,6 +78,8 @@ li {
   align-items: center;
   padding: 0px;
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .top-menu {
   display: flex;
@@ -294,6 +296,7 @@ li {
 /* Footer */
 .footer {
   background-color: var(--color-navy-blue);
+  padding: 100px 0;
 }
 .logos {
   font-family: "Raleway", sans-serif;
@@ -305,7 +308,9 @@ li {
   text-transform: uppercase;
   color: var(--color-iris);
 }
-
+.footeer-par {
+  max-width: 264px;
+}
 .logo-cloud {
   font-family: "Raleway";
   font-style: sans-serif;
