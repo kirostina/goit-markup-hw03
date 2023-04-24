@@ -1,3 +1,4 @@
+@import 'node_modules/modern-normalize/modern-normalize.min.css';
 :root {
   --color-iris: #4d5ae5;
   --color-ocean: #404bbf;
@@ -23,6 +24,21 @@ body {
 }
 img {
   display: block;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.head-container {
+  display: flex;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
 }
 li {
   list-style: none;
@@ -59,6 +75,12 @@ li {
   flex-direction: row;
   align-items: center;
   padding: 0px;
+  margin-right: 76px;
+}
+.top-menu {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
 }
 .logoto {
   font-family: "Raleway", sans-serif;
@@ -100,6 +122,8 @@ li {
 }
 .address {
   font-style: normal;
+  display: flex;
+  gap: 40px;
 }
 .contacts {
   font-family: "Roboto";
